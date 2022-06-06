@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/gallery.min.css">
+  <link rel="stylesheet" href="../icons/icons.css">
+  <link rel="stylesheet" href="../css/jquery-ui.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="../img/lg.png" rel="icon">
+ 	<title>Sign_in</title>
+</head>
+<body>
+
+<div id="coverScreen" class="lockOn"></div>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-0">
+
+    <a href="../index.html" class="navbar-brand p-0 m-0">
+      <img src="../img/lg.png" alt="pic" class="logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" 
+      data-toggle="collapse" 
+      data-target="#NavbarToggleDemo01" 
+      aria-controls="NavbarToggleDemo01" 
+      aria-expanded="false" aria-label="Toggle-navigation">
+      <span class="navbar-toggler-icon"></span>        
+    </button>
+  
+    <div class="collapse navbar-collapse" id="NavbarToggleDemo01">
+
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item-active">
+          <a href="../index.html" class="nav-link">Home</a>
+          <span class="sr-only"></span>
+        </li>
+        <li class="nav-item">
+          <a href="https://explore.org/livecams/birds" target="blank" class="nav-link">Bird live online camera</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://en.wikipedia.org/wiki/Bird" target="blank" class="nav-link"> Bird Wikipedia </a>
+        </li>
+        <li class="nav-item">
+          <a href="../gallery/gallery.html" target="blank" class="nav-link"> Gallery </a>
+        </li> 
+        <li class="nav-item">
+          <a href="../auth/signin.html" target="blank" class="nav-link"> Signin </a>
+        </li>
+        <li class="nav-item">
+          <a href="../auth/signup.html" target="blank" class="nav-link"> Signup </a>
+        </li>
+        <li class="nav-item">
+          <a href="../contact.html" target="blank" class="nav-link">Contact</a>
+        </li> 
+       
+      </ul>
+
+      <form class="form-inline ml-auto my-2 my-lg-0">
+        <input id="tags" class="form-control mr-sm-2 border-dark custum_search" type="search" placeholder="Search">
+          <button class="btn btn btn-outline-dark my-2 my-sm-0 custum_btn" type="submit">
+          Search
+        </button>
+      </form>
+
+    </div>
+
+  </nav>
+</header>
+<main>
+	
+	
+		<div class="sign_in_card">
+
+  <form action="" class="form_body">
+
+    <div class="h4 pb-1 text-light">Sign-in</div>
+    <div class="form-group">
+      <input type="email" class="form-control sign_in_input" 
+      maxlength="30" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control sign_in_input" 
+      maxlength="30" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label small text-light pb-3" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="sign_btn">Submit</button>
+
+    <div class="m-auto d-flex justify-content-between px-1 pt-3">
+      <a href="../auth/reset.html" class="text-light text-monospace text-decoration-none">Reset Password</a>
+      <a href="../auth/signup.html" class="text-light text-monospace text-decoration-none">Free Sign-up</a>
+    </div>
+
+  </form>
+
+</div>
+			
+		</div>
+
+</main>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/gallery.min.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/main.js"></script>
+
+</body>
+</html>

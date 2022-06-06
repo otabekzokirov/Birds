@@ -1,0 +1,359 @@
+body {
+  background-color: #f1f1ff;
+  no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../img/bg1.jpg);
+}
+.navbar {
+  z-index: 1030;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0px 0px 40px 0px lightblue !important;
+  background-color: rgb(255, 255, 255, 0.60) !important;
+}
+.nav-link {
+  /*color: white !important;*/
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  transition: height .2s height;
+}
+.logo {
+  width: 40px;
+}
+.home_header_body {
+  background-color: rgb(10, 10, 10, 0.60);
+}
+.home_header_body_card {
+  width: 100vw;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+.home_header_body_card_text {
+  color: white;
+  max-width: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+header {
+  background: url(../img/bg1.jpg);
+  no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  }
+
+.preload-images {
+  background-image:
+  url("../img/bg1.jpg"),
+  url("../img/bg2.jpg"),
+  url("../img/bg3.jpg"),
+}
+.bg-default {
+  background: url(../img/bg1.jpg);
+  no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.bg-next {
+  background: url(../img/bg2.jpg);
+  no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.bg-preview {
+  background: url(../img/bg3.jpg);
+  no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.bg-default, .bg-preview, .bg-next {
+  transition: 0.50s;
+}
+.header_btn {
+  color: lime;
+  cursor: pointer;
+  transition: 0.20s;
+  margin-right: 15px;
+  border-radius: 5px;
+  padding: 5px 35px;
+  border: solid 1px lime;
+  background-color: rgb(10, 10, 10, 0.60);
+  box-shadow: 0px 0px 15px 0px lightgreen;
+}
+.lockOn {
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+  position: absolute;
+  background-color: transparent;
+  background-image: url("../img/bird.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.card_bg {
+  box-shadow: 0px 0px 2px 0px black;
+  width: 380px;
+  margin: 10px;  
+  margin-top:12px;
+}
+.card_bg_text {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+}
+
+.card_bg:hover {
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 8px;
+}
+
+.fixed-top.scrolled {
+  transition: background-color 200ms linear;
+  background-color: rgb(25, 100, 25, 0.60) !important;
+  box-shadow: 0px 0px 40px 0px limegreen !important;
+}
+.fixed-top.scrolled .nav-link {
+  color: lime !important;
+}
+.custom_search {
+  background-color: transparent;
+}
+.fixed-top.scrolled .custom_search{
+  color: lime !important;
+  border: solid 1px lime;
+}
+.fadedfx {
+  background-color: #fe5652;
+  visibility: hidden;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.placeholder {
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.placeholder img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s linear;
+}
+.placeholder img.loaded {
+  opacity: 1;
+}
+.img-small {
+  filter: blur(20px);
+}
+.card_link {
+  color: silver;
+  text-decoration: none;
+}
+.fi {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.fi-sr-heart:hover {
+  color: red;
+}
+.fi-sr-shopping-cart:hover {
+  color: lime;
+}
+.card_footer {
+  justify-content: space-between;
+}
+small {
+  color: lightgreen;
+font-family: monospace;
+}
+.images_body {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.20s;
+}
+.images_body:hover {
+  filter: brightness(0.6);
+  box-shadow: inset 0px 0px 20px 0px red;
+}
+.card_main {
+  overflow: hidden;
+}
+
+.images_body {
+  cursor: pointer;
+  transition: 0.20s;
+}
+
+.images_body:hover {
+  transform: scale(1.2);
+  filter: brightness(0.6);
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.carousel_img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.footer_icons {
+  text-decoration: none;
+  width:35px;
+  height: 35px;
+  border-radius: 50%;
+  border: solid 2px lightgreen;
+  margin: 5px;
+}
+.footer_img {
+  width: 35px;
+ }
+.ui-menu ,.empty_message{
+  z-index: 1500;
+  position: fixed;
+  font-weight: bold;
+  padding-top: 10px;
+  background: transparent;
+  border-radius: 5px !important;
+}
+
+.ui-menu-item {
+  width: 100%;
+  padding: 5px;
+  max-width: 220px;
+  background-color: rgb(255, 255, 255, 0.60);
+}
+.ui-widget {
+  border:solid 1px transparent !important;
+}
+
+.empty_message { 
+  float: left; 
+}
+
+
+.sign_in_card {
+  width: 100vw;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form_body {
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  transition: 0.20s;
+  border-radius: 5px;
+  border: solid 1px limegreen;
+  backdrop-filter: blur(10px);
+  background-color: rgb(0, 0, 0, 0.20);
+}
+
+.form_body:hover {
+  backdrop-filter: blur(15px);
+}
+
+.sign_in_input {
+  color: limegreen;
+  border: solid 1px limegreen;
+  background-color: rgb(0, 0, 0, 0.20);
+}
+
+.sign_in_input:focus {
+  color: lime;
+  box-shadow: none;
+  border: solid 1px lime;
+  background-color: rgb(0, 0, 0, 0.40);
+}
+
+.sign_btn {
+  width: 100%;
+  padding: 4px;
+  color: lightgreen;
+  border-radius: 5px;
+  border: solid 1px lightgreen;
+  background-color: rgb(0, 0, 0, 0.20);
+}
+
+input::-webkit-input-placeholder {
+  color: lightgreen !important;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: lime !important;
+}
+.contact_height {
+  width: 100vw;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cont_input {
+  color: limegreen;
+  border: solid 1px limegreen;
+  background-color: rgb(0, 0, 0, 0.20);
+}
+
+.cont_input:focus {
+  color: lime;
+  box-shadow: none;
+  border: solid 1px lime;
+  background-color: rgb(0, 0, 0, 0.40);
+}
+.contact_bg {
+  background-color: #f1f1ff;
+}
